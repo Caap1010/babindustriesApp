@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Apply / Register</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0b0b;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #f4c542;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      background: #181818;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: none;
+    }
+
+    button {
+      background-color: #f4c542;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e0b93c;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Apply / Register</h1>
+  <form>
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email Address" required />
+    <input type="text" placeholder="Phone Number" required />
+    <select required>
+      <option value="">Select Division</option>
+      <option>Lifestyle & Luxury</option>
+      <option>Cleaning & Maintenance</option>
+      <option>Publishing & Education</option>
+      <option>Food & Beverage</option>
+      <option>Transportation & Mobility</option>
+      <option>Media, Entertainment & Gaming</option>
+      <option>Technology & Innovation</option>
+      <option>Finance & Consulting</option>
+      <option>Betting</option>
+      <option>Sustainability & Social Impact</option>
+      <option>Professional & Creative Services</option>
+      <option>Property, Construction & Interior Design</option>
+    </select>
+    <textarea placeholder="Tell us about your skills, business, or interest..." rows="5" required></textarea>
+    <button type="submit" onclick="alert('Application submitted!')">Submit</button>
+  </form>
+
+</body>
+</html>
